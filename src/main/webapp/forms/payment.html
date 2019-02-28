@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+ 
+
+<body bgcolor="green">
+<center><form name="pay"   action= "CheckPayment"  method = "post">
+  <div class="form-group">
+    <label for="firstname">First Name:</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="firstname"
+           name="firstname" />
+  </div>  </br>
+  <div class="form-group">
+    <label for="lastname">Last Name:</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="lastname"
+           name="lastname" />
+  </div> </br>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="email"
+           name="email" />
+  </div> </br>
+  <div class="form-group">
+    <label for="card">Card number:</label>
+    <input class="form-control"
+           cam-variable-type="Double"
+           cam-variable-name="card"
+           name="card" />
+  </div> </br>
+  <div class="form-group">
+    <label for="cvv">CCV:</label>
+    <input class="form-control"
+           cam-variable-type="Double"
+           cam-variable-name="cvv"
+           name="cvv" />
+  </div> </br>
+  <div class="form-group">
+    <label for="phoneno"> Phone Number: </label>
+    <input class="form-control"
+           cam-variable-type="Double"
+           cam-variable-name="phoneno"
+           name="phoneno" />
+  </div> </br>
+  <h3> Do you want to make the payment ?</h3>
+  
+  <input type="radio" name="yes" value="Yes"> Yes<br>
+  <input type="radio" name="no" value="No"> No<br><br/>
+  <input type="submit" value="Submit ">
+  
+</form>
+
+
+ </center>
+</body>
+
+</html>
